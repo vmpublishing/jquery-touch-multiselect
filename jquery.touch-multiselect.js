@@ -1,6 +1,9 @@
-/*
+/**
+ * @license
+ * 
  * jQuery Touch MultiSelect
  *
+ * License: MIT
  */
 
 (function($){

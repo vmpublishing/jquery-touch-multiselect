@@ -115,7 +115,7 @@
     var createLis = function() {
       var li;
       var hasOneSelected = false;
-      element.children('option').each(function() {
+      element.first().find('option').each(function(option) {
         li = $('<li />').data('touchMultiSelect', { bindedOption: $(this) })
                         .html($(this).html())
                         .bind('click.touchMultiSelect', liClickHandler)

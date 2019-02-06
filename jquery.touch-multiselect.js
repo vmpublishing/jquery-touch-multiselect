@@ -21,7 +21,7 @@
       // permitNoSelectedButton : if there is no 'none' button, determines if we can deselect
       // an option if there is no other one selected
       permitNoSelectedButton: false,
-      maximumNumberSelections: null,
+      maximumNumberSelections: null
     };
 
     var options = $.extend(defaults, options);
